@@ -11,31 +11,37 @@ class TabBarDemo extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: DefaultTabController(
-        length: 3,
+        length: 6,
         child: Scaffold(
           appBar: AppBar(
             bottom: const TabBar(
               tabs: [
-                Tab(icon: Icon(Icons.directions_car)),
-                Tab(icon: Icon(Icons.directions_transit)),
-                Tab(icon: Icon(Icons.directions_bike)),
-                Tab(icon: Icon(Icons.directions_transit)),
-                Tab(icon: Icon(Icons.directions_bike)),
+                Tab(text:"Monday"),
+                Tab(text:"Tuesday"),
+                Tab(text:"Wednesday"),
+                Tab(text:"Thursday"),
+                Tab(text:"Friday"),
+                Tab(text:"Saturday"),
               ],
             ),
-            title: const Text('Tabs Demo'),
+            title: const Text(''),
           ),
           body: const TabBarView(
-            children: [
-              Icon(Icons.directions_car),
-              Icon(Icons.directions_transit),
-              Icon(Icons.directions_bike),
-              Icon(Icons.directions_transit),
-              Icon(Icons.directions_bike),
+       children: [
+        
+          Center(child: Text("Rice,Banku,Waakye")),
+          Center(child: Text("Rice,Banku,Waakye")),
+          Center(child: Text("Rice,Banku,Waakye")),
+          Center(child: Text("Rice,Banku,Waakye")),
+          Center(child: Text("Rice,Banku,Waakye")),
+          Center(child: Text("Rice,Banku,Waakye")),
+          
+
             ],
           ),
+          ),
         ),
-      ),
+    
     );
   }
 }

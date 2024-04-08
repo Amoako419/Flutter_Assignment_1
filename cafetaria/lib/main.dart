@@ -14,6 +14,7 @@ class TabBarDemo extends StatelessWidget {
         length: 6,
         child: Scaffold(
           appBar: AppBar(
+            backgroundColor: Colors.deepOrangeAccent,
             bottom: const TabBar(
               tabs: [
                 Tab(text:"Monday"),
@@ -24,14 +25,14 @@ class TabBarDemo extends StatelessWidget {
                 Tab(text:"Saturday"),
               ],
             ),
-            title: const Text(''),
+            title: const Text('Cafeteria'),
           ),
           body: const TabBarView(
        children: [
         
           Center(child: Text("Rice,Banku,Waakye")),
-          Center(child: Text("Rice,Banku,Waakye")),
-          Center(child: Text("Rice,Banku,Waakye")),
+          Center(child: Text("Jollof,TZ,Waakye")),
+          Center(child: Text("koko,Braised Rice,Fufu")),
           Center(child: Text("Rice,Banku,Waakye")),
           Center(child: Text("Rice,Banku,Waakye")),
           Center(child: Text("Rice,Banku,Waakye")),

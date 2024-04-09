@@ -31,10 +31,10 @@ class TabBarDemo extends StatelessWidget {
        children: [
           _monday(),
           _tuesday(),
-         _wednesday(),
-          Center(child: Text("Rice,Banku,Waakye")),
-          Center(child: Text("Rice,Banku,Waakye")),
-          Center(child: Text("Rice,Banku,Waakye")),
+          _wednesday(),
+          _thursday(),
+          _friday(),
+          _saturday()
           
 
             ],
@@ -85,6 +85,51 @@ Widget _wednesday(){
       ElevatedButton(onPressed: () {}, child: const Text("Order")),
 
        const Image(image: AssetImage("assets/11.JPG",),height: 200.0),
+      const Text("Beans with Ripe plantain"),
+      ElevatedButton(onPressed: () {}, child: const Text("Order")),
+      
+    ],
+    
+  );
+}
+Widget _thursday(){
+  return  Column(
+    children: [
+      const Image(image: AssetImage("assets/9.JPG",),height: 200.0),
+      const Text("Fufuo with Bush meat"),
+      ElevatedButton(onPressed: () {}, child: const Text("Order")),
+
+       const Image(image: AssetImage("assets/6 .JPG",),height: 200.0),
+      const Text("Jollof with Chicken "),
+      ElevatedButton(onPressed: () {}, child: const Text("Order")),
+      
+    ],
+    
+  );
+}
+Widget _friday(){
+  return  Column(
+    children: [
+      const Image(image: AssetImage("assets/9.JPG",),height: 200.0),
+      const Text("Fufuo with Bush meat"),
+      ElevatedButton(onPressed: () {}, child: const Text("Order")),
+
+       const Image(image: AssetImage("assets/6 .JPG",),height: 200.0),
+      const Text("Jollof with Chicken "),
+      ElevatedButton(onPressed: () {}, child: const Text("Order")),
+      
+    ],
+    
+  );
+}
+Widget _saturday(){
+  return  Column(
+    children: [
+      const Image(image: AssetImage("assets/9.JPG",),height: 200.0),
+      const Text("Fufuo with Bush meat"),
+      ElevatedButton(onPressed: () {}, child: const Text("Order")),
+
+       const Image(image: AssetImage("assets/6 .JPG",),height: 200.0),
       const Text("Jollof with Chicken "),
       ElevatedButton(onPressed: () {}, child: const Text("Order")),
       

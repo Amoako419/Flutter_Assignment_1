@@ -110,12 +110,12 @@ Widget _thursday(){
 Widget _friday(){
   return  Column(
     children: [
-      const Image(image: AssetImage("assets/9.JPG",),height: 200.0),
-      const Text("Fufuo with Bush meat"),
+      const Image(image: AssetImage("assets/8.JPG",),height: 200.0),
+      const Text("Fufuo with Cow meat"),
       ElevatedButton(onPressed: () {}, child: const Text("Order")),
 
-       const Image(image: AssetImage("assets/6 .JPG",),height: 200.0),
-      const Text("Jollof with Chicken "),
+       const Image(image: AssetImage("assets/3.WEBP  ",),height: 200.0),
+      const Text("Yam Ampesi with Egg "),
       ElevatedButton(onPressed: () {}, child: const Text("Order")),
       
     ],
@@ -125,11 +125,11 @@ Widget _friday(){
 Widget _saturday(){
   return  Column(
     children: [
-      const Image(image: AssetImage("assets/9.JPG",),height: 200.0),
-      const Text("Fufuo with Bush meat"),
+      const Image(image: AssetImage("assets/2.JPG",),height: 200.0),
+      const Text("Kenkey with Hot pepper"),
       ElevatedButton(onPressed: () {}, child: const Text("Order")),
 
-       const Image(image: AssetImage("assets/6 .JPG",),height: 200.0),
+       const Image(image: AssetImage("assets/7.JPG",),height: 200.0),
       const Text("Jollof with Chicken "),
       ElevatedButton(onPressed: () {}, child: const Text("Order")),
       

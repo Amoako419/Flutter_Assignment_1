@@ -34,7 +34,7 @@ class TabBarDemo extends StatelessWidget {
           _wednesday(),
           _thursday(),
           _friday(),
-          _saturday()
+          _saturday(),
           
 
             ],
@@ -99,8 +99,8 @@ Widget _thursday(){
       const Text("Fufuo with Bush meat"),
       ElevatedButton(onPressed: () {}, child: const Text("Order")),
 
-       const Image(image: AssetImage("assets/6 .JPG",),height: 200.0),
-      const Text("Jollof with Chicken "),
+       const Image(image: AssetImage("assets/2.JPG",),height: 200.0),
+      const Text("Kenkey with Fish"),
       ElevatedButton(onPressed: () {}, child: const Text("Order")),
       
     ],
@@ -114,7 +114,7 @@ Widget _friday(){
       const Text("Fufuo with Cow meat"),
       ElevatedButton(onPressed: () {}, child: const Text("Order")),
 
-       const Image(image: AssetImage("assets/3.WEBP  ",),height: 200.0),
+       const Image(image: AssetImage("assets/5.WEBP",),height: 200.0),
       const Text("Yam Ampesi with Egg "),
       ElevatedButton(onPressed: () {}, child: const Text("Order")),
       

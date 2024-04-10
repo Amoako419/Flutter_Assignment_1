@@ -14,7 +14,7 @@ class TabBarDemo extends StatelessWidget {
         length: 6,
         child: Scaffold(
           appBar: AppBar(
-            backgroundColor: const Color.fromARGB(255, 255, 255, 255),
+            backgroundColor: Color.fromARGB(255, 146, 117, 210),
             bottom: const TabBar(
               tabs: [
                 Tab(text:"Monday"),
@@ -47,16 +47,21 @@ class TabBarDemo extends StatelessWidget {
  
 }
 Widget _monday(){
-  return  Column(
-    children: [
-      const Image(image: AssetImage("assets/1.JPG",),height: 200.0),
-      const Text("waakye"),
-      ElevatedButton(onPressed: () {}, child: const Text("Order")),
-
-      const Image(image: AssetImage("assets/10.JPG",),height: 200.0),
-      const Text("Banku with egg stew"),
-      ElevatedButton(onPressed: () {}, child: const Text("Order")),
-    ],
+  return  Padding(
+    padding: const EdgeInsets.symmetric(),
+    
+    child: Column(
+      
+      children: [
+        const Image(image: AssetImage("assets/1.JPG",),height: 200.0),
+        const Text("waakye"),
+        ElevatedButton(onPressed: () {}, child: const Text("Order")),
+    
+        const Image(image: AssetImage("assets/10.JPG",),height: 200.0),
+        const Text("Banku with egg stew"),
+        ElevatedButton(onPressed: () {}, child: const Text("Order")),
+      ],
+    ),
   );
 }
 
